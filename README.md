@@ -1,14 +1,30 @@
-sacloud-timer
-=============
+# sacloud-power
 
-## 検討
-### 機能仕様
-- 指定したタイミングにサーバを起動/停止する
-  - タイミングは任意の時間/曜日/日付/年月日とする
-  - 時間/曜日/日付は繰り返し指定可能とする
-  - 日付は月初/月末のような指定も可能とする
-- 1分ごとにプログラムを呼び出し、指定されたタイミングに該当するか確認する
-  - タイミングに該当する場合、サーバに対して操作を実行する
-  - 操作実施後、成功/失敗の結果をDBに記録する
-  - 操作失敗時にリトライする回数を指定できるようにする
-  - 操作結果をメールやSlackに通知する
+> A Vue.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
+```
+
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
